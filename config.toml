@@ -2,3 +2,6 @@ languageCode = "en-us"
 title = "Cloud Foundry Developer Course Site"
 baseURL = "http://example.org/"
 theme = "hugo-theme-learn"
+
+[params]
+  slidesURL = "http://localhost:8000?pres="

@@ -1,0 +1,3 @@
+{{ $url_path := index .Params 0 }}
+{{ $url_base := .Site.Params.slidesURL }}
+<a target="_blank" href="{{ $url_base }}{{ $url_path }}">Slides</a>
