@@ -6,11 +6,10 @@ It expects the content to be pushed into its `content` folder from the `develope
 ## Preparation
 
 1. Install hugo locally
-2. Install the theme into this project
+2. Install the theme into this project. Its a git submodule
 
 ```sh
-cd themes
-git clone https://github.com/matcornic/hugo-theme-learn/
+git submodule update --init
 ```
 
 3. Clone the [developer-training-course](https://github.com/cloudfoundry/developer-training-course.git)
