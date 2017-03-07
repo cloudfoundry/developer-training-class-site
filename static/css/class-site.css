@@ -85,6 +85,17 @@ a {
   padding: 8% 0;
 }
 
+#footer {
+  color: #454645;
+  padding: 0 1rem;
+}
+
+#footer ul li {
+  display: list-item;
+  list-style: disc outside none;
+  margin-left: 10%;
+}
+
 /* Set the main fonts & sizes to match the style guide */
 p, li, a, span {
   font-family: ProximaNova-Regular !important;
