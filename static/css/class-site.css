@@ -1,0 +1,66 @@
+
+/* Color key
+
+#454645: dark grey
+#0c9ed5: light blue
+#2a232f: dark grey from existing style (border line only)
+
+*/
+/* background behind the logo*/
+#header {
+    background: white;
+    border-color: white;
+}
+
+/* Background color of the menu */
+#sidebar {
+  background-color: white;
+  color: #454645;
+}
+
+/* logo area background white, lower border to match the one at the bottom of the menu */
+#header-wrapper {
+  background-color: white;
+  border-bottom: 1px solid #2a232f;
+}
+
+/* Background color of the menu, when clicked */
+#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+  background-color: #454645;
+}
+
+/* sidebar text to normally be white */
+#sidebar ul li.active > ul > li > a, #sidebar ul li.parent > a  {
+  color: white;
+}
+
+/* Roman numerals in sidebar */
+#sidebar ul.topics > li > a b {
+  opacity: 1;
+}
+
+/* sidebar text to turn blue when clicked */
+#sidebar ul li.active > a, #sidebar ul.topics > li.active > a b  {
+  color: #0c9ed5 !important;
+  background-color: #454645;
+}
+
+/* Clickable elements in sidebar turn blue on hover */
+#sidebar a:hover {
+  color: #0c9ed5;
+}
+
+/* Clickable elements elsewhere turn blue on hover */
+a:hover {
+  color: #0c9ed5;
+}
+
+/* Sidebar background is grey */
+#sidebar a {
+  color: #454645;
+}
+
+/* Color of all links, including arrows to get to previous and next pages */
+a {
+  color: black;
+}
