@@ -6,6 +6,22 @@
 #2a232f: dark grey from existing style (border line only)
 
 */
+
+@font-face {
+    font-family: 'ProximaNova-Light'; /*a name to be used later*/
+    src: url('/fonts/ProximaNova-Regular.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'ProximaNova-Regular'; /*a name to be used later*/
+    src: url('/fonts/ProximaNova-Regular.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'ProximaNova-Bold'; /*a name to be used later*/
+    src: url('/fonts/ProximaNova-Bold.otf'); /*URL to font*/
+}
+
 /* background behind the logo*/
 #header {
     background: white;
@@ -62,5 +78,59 @@ a:hover {
 
 /* Color of all links, including arrows to get to previous and next pages */
 a {
-  color: black;
+  color: #323232;
+}
+
+/* Set the main fonts & sizes to match the style guide */
+p, li, a, span {
+  font-family: ProximaNova-Regular !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
+.blockquotes {
+  font-family: ProximaNova-Regular !important;
+  font-size: 22px !important;
+  line-height: 30px !important;
+  padding: 5%v !important;
+}
+body #chapter h1 {
+  font-family: ProximaNova-Light !important;
+  font-size: 36px !important;
+  line-height: 42px !important;
+}
+h1 {
+  font-family: ProximaNova-Regular !important;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+h2 {
+  font-family: ProximaNova-Regular !important;
+  font-size: 24px !important;
+  line-height: 35px !important;
+}
+
+h3 {
+  font-family: ProximaNova-Regular !important;
+  font-size: 22px !important;
+  line-height: 30px !important;
+}
+
+h4 {
+  font-family: ProximaNova-Regular !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+
+h5 {
+  font-family: ProximaNova-Bold !important;
+  font-size: 18px !important;
+  line-height: 26px !important;
+}
+
+h6 {
+  font-family: ProximaNova-Bold !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
 }
