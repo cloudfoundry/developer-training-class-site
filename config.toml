@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Cloud Foundry Developer Course Site"
-baseURL = "http://example.org/"
+baseURL = ""
 theme = "hugo-theme-learn"
 
 [params]
