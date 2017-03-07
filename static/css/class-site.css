@@ -81,6 +81,10 @@ a {
   color: #323232;
 }
 
+#logo img {
+  padding: 8% 0;
+}
+
 /* Set the main fonts & sizes to match the style guide */
 p, li, a, span {
   font-family: ProximaNova-Regular !important;
