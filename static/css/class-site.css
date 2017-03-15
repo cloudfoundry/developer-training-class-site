@@ -46,7 +46,7 @@
 }
 
 /* sidebar text to normally be white */
-#sidebar ul li.active > ul > li > a, #sidebar ul li.parent > a  {
+#sidebar ul li.active > ul > li > a, #sidebar ul li.parent > a, #sidebar ul li.parent > ul > li > a  {
   color: white;
 }
 
@@ -71,7 +71,7 @@ a:hover {
   color: #0c9ed5;
 }
 
-/* Sidebar background is grey */
+/* Sidebar text is grey on white by default*/
 #sidebar a {
   color: #454645;
 }
