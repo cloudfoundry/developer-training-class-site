@@ -116,7 +116,7 @@ body #chapter h1 {
 }
 
 #chapter p {
-  text-align: center;
+  text-align: center !important;
 }
 
 h1 {
