@@ -154,3 +154,10 @@ h6 {
   font-size: 16px !important;
   line-height: 22px !important;
 }
+
+a.slides {
+  font-size: 150% !important;
+  color: #0c9ed5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
