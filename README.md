@@ -28,14 +28,14 @@ If you want to view slides also:
 1. start the hugo server
 
 ```sh
-cd cfcd-class-site
+cd developer-training-class-site
 hugo serve -D
 ```
 
 2. Push in the learning path content from the `developer-training-course` repo using:
 
 ```sh
-hugo-parser developer-training-course/learning-path/exercise-mappings.yml developer-training-course cfcd-class-site/content
+hugo-parser developer-training-course/learning-path/exercise-mappings.yml developer-training-course developer-training-class-site/content
 ```
 
 *NB. You would need to run this command each time you change a file in developer-training-course*
