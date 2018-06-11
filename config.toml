@@ -1,7 +1,16 @@
 languageCode = "en-us"
-title = "Cloud Foundry Developer Course Site"
+title = "Cloud Foundry for Developers"
 baseURL = ""
 theme = "hugo-theme-learn"
 
+
+
 [params]
+  themeVariant = "cff"
   slidesURL = "http://localhost:8000?pres="
+  DisableLanguageSwitchingButton = "true"
+  disableInlineCopyToClipBoard = "true"
+
+# For search functionnality
+[outputs]
+  home = [ "HTML", "RSS", "JSON"]
