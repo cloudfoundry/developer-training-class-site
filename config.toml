@@ -3,8 +3,6 @@ title = "Cloud Foundry for Developers"
 baseURL = ""
 theme = "hugo-theme-learn"
 
-
-
 [params]
   themeVariant = "cff"
   slidesURL = "http://localhost:8000?pres="
